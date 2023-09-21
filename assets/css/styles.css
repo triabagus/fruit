@@ -367,7 +367,46 @@ img {
 }
 
 /*=============== ABOUT ===============*/
+.about{
+  position: relative;
+}
 
+.about__container{
+  row-gap: 2rem;
+}
+
+.about__data{
+  position: relative;
+  text-align: center;
+}
+
+.about__description{
+  margin-bottom: 2rem;
+}
+
+.about__fruit,
+.about__branch{
+  filter: var(--filter-img);
+  position: absolute;
+}
+
+.about__fruit{
+  width: 40px;
+  bottom: 2rem;
+  right: 1rem;
+}
+
+.about__img{
+  width: 320px;
+  justify-self: center;
+  filter: var(--shadow-img);
+}
+
+.about__branch{
+  width: 120px;
+  rotate: 60deg;
+  left: -3.5rem;
+}
 
 /*=============== POPULAR ===============*/
 
