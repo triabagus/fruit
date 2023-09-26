@@ -104,7 +104,17 @@ img {
 }
 
 /*=============== THEME ===============*/
+.nav__buttons{
+  display: flex;
+  align-items: center;
+  column-gap: 1rem;
+}
 
+.change-theme{
+  font-size: 1.25rem;
+  color: var(--title-color);
+  cursor: pointer;
+}
 
 /*========== Variables Dark Theme ==========*/
 
@@ -252,7 +262,9 @@ img {
 }
 
 /* Active link */
-
+.active-link{
+  color: var(--first-color);
+}
 
 /*=============== HOME ===============*/
 .home{
