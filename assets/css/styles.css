@@ -117,7 +117,16 @@ img {
 }
 
 /*========== Variables Dark Theme ==========*/
-
+body.dark-theme{
+  --first-color: hsl(140, 30%, 45%);
+  --first-color-alt: hsl(140, 30%, 40%);
+  --title-color: hsl(140, 4%, 90%);
+  --text-color: hsl(140, 4%, 70%);
+  --body-color: hsl(0, 0%, 10%);
+  --container-color: hsl(0, 0%, 14%);
+  --shadow-img: drop-shadow(0 8px 12px hsla(0, 0%, 0%, .6));
+  --filter-img: initial;  
+}
 
 
 /*========== 
