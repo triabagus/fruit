@@ -128,12 +128,29 @@ body.dark-theme{
   --filter-img: initial;  
 }
 
-
 /*========== 
 	Color changes in some parts of 
 	the website, in dark theme
 ==========*/
+.dark-theme :is(.shadow-header, .nav__menu, .scrollup){
+  box-shadow: 0 2px 16px hsla(0, 0%, 0%, .3);
+}
 
+.dark-theme .scrollup{
+  background-color: var(--container-color);
+}
+
+.dark-theme::-webkit-scrollbar{
+  background-color: hsl(0, 0%, 15%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb{
+  background-color: hsl(0, 0%, 30%);
+}
+
+.dark-theme::-webkit-scrollbar-thumb:hover{
+  background-color: hsl(0, 0%, 40%);
+}
 
 /*=============== REUSABLE CSS CLASSES ===============*/
 .container {
