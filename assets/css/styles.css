@@ -747,7 +747,39 @@ body.dark-theme{
 
 /*=============== BREAKPOINTS ===============*/
 /* For small devices */
+@media screen and (max-width: 300px){
+  .container{
+    margin-inline: 1rem;
+  }
 
+  .home__title{
+    font-size: 2.5rem;
+  }
+  .home__fruit{
+    top: 5.5rem;
+  }
+  .home__branch{
+    right: -4rem;
+  }
+
+  .enjoy__container,
+  .popular__container{
+    grid-template-columns: 220px;
+  }
+
+  .about__branch{
+    bottom: 12rem;
+  }
+
+  .join__content{
+    padding: 2rem 1rem;
+  }
+
+  .footer__data{
+    grid-template-columns: max-content;
+    gap: 2rem; 
+  }
+}
 
 /* For medium devices */
 
